@@ -10,13 +10,10 @@ As diretrizes trazem informações sobre o número de amostras que devem ser rea
 
 
 ```python
-pip install open-geodata --upgrade
+pip install diretriz-vigilancia --upgrade
 ```
 
-
-
 <br>
-
 
 ------
 
