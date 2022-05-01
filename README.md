@@ -8,14 +8,55 @@ As diretrizes trazem informações sobre o número de amostras que devem ser rea
 
 <br>
 
+----
 
-```python
-pip install diretriz-vigilancia --upgrade
+### Objetivo
+
+O projeto objetiva disponibilizar os parâmetros de qualidade em formato tabular, adequado para utilização em análises computacionais.
+
+<br>
+
+----
+
+### Como Instalar?
+
+<br>
+
+```bash
+pip3 install diretriz-vigilancia --upgrade
 ```
 
 <br>
 
-------
+----
+
+### Como Usar?
+
+<br>
+
+```python
+from normas import diretriz
+
+# Get Table
+pop=156726
+diretriz.numero_amostras_cloro(pop)
+diretriz.numero_amostras_fluoreto(pop)
+
+df['n_habitantes'].apply(lambda x: diretriz.numero_amostras_cloro(x))
+df['n_habitantes'].apply(lambda x: diretriz.numero_amostras_fluoreto(x))
+```
+
+<br>
+
+-----
+
+### Testes
+
+Caso queira testar, segue um [*Google Colab*](https://colab.research.google.com/drive/1JsnMfzkj97DMPNBdB09bPLQ5HuDPjIuv?usp=sharing).
+
+<br>
+
+-----
 
 ### *TODO*
 

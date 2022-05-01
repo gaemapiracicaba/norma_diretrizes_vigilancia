@@ -17,7 +17,8 @@ setup(
     version=__version__,
     author='Michel Metran',
     author_email='michelmetran@gmail.com',
-    description='O projeto objetiva disponibilizar os parâmetros de qualidade em formato adequado para utilização em análises computacionais',
+    description='O projeto objetiva disponibilizar os parâmetros de qualidade em formato adequado para utilização em '
+                'análises computacionais',
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/gaemapiracicaba/norma_diretrizes_vigilancia',
